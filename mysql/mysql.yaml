@@ -15,7 +15,7 @@ spec:
         app: mysql
     spec:
       containers:
-        - image: hbsuhas/mysql
+        - image: hbsuhas/mysql:1.0
           name: mysql
           env:
             - name: MYSQL_ROOT_PASSWORD
