@@ -15,7 +15,7 @@ spec:
         app: api
     spec:
       containers:
-        - image: "hbsuhas/nodejs:1.0"
+        - image: "hbsuhas/node:1.0"
           name: nodejs
           ports:
             - containerPort: 4200
