@@ -14,15 +14,9 @@ spec:
       labels:
         app: api
     spec:
-      metadata:
-        name: api
-        labels:
-          app: k8sdemo
-          type: api
       containers:
         name: nodejs
         image: hbsuhas/nodejs:1.0
-
         ports:
           - containerPort: 4200
             name: nodejs
