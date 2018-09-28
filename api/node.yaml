@@ -18,11 +18,10 @@ spec:
         name: api
         labels:
           app: k8sdemo
-          type: ui
-      spec:
-        containers:
-          name: nodejs
-          image: hbsuhas/nodejs:1.0
+          type: api
+      containers:
+        name: nodejs
+        image: hbsuhas/nodejs:1.0
 
         ports:
           - containerPort: 4200
